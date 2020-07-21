@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8 ">
+        <title>Photography by Aashna</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="smooth">
+                <div class="header">
+                    <ul> 
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+        
+            <section id="hero">
+                <div class="section-inner">
+                    <div class="hi">
+                    <h1>Hi! I am Aashna Khan.</h1>
+                    </div>
+                </div>
+            </section>
+            <section id="about">
+                <div class="section-inner">
+                    <div class="ab">
+                    <h2>About me</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur elementum semper venenatis. Curabitur placerat venenatis sagittis. Nunc aliquam convallis sagittis. Sed imperdiet mi in dolor auctor, ac eleifend odio ultricies. Nulla eget blandit mauris. Vivamus consectetur sodales leo, vel mollis dui porttitor sed. Praesent in leo lectus. Suspendisse aliquam velit et elementum pretium. Aliquam egestas tempus ullamcorper. Pellentesque id enim in lacus finibus imperdiet. Pellentesque gravida magna in velit vehicula, eu efficitur leo tincidunt. Integer mi metus, iaculis ut orci et, luctus pellentesque libero. Cras ac mi vel leo commodo tincidunt.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="portfolio">
+                <div class="gallery">
+                    <a href="images/1b.png"><img src="images/1.png"></a>
+                    <a href="images/2b.png"><img src="images/2.png"></a>
+                    <a href="images/3b.png"><img src="images/3.png"></a>
+                    <a href="images/4b.png"><img src="images/4.png"></a>
+                    <a href="images/5b.png"><img src="images/5.png"></a>
+                    <a href="images/6b.png"><img src="images/6.png"></a>
+                    <a href="images/7b.png"><img src="images/7.png"></a>
+                    <a href="images/8b.png"><img src="images/8.png"></a>
+                    <a href="images/9b.png"><img src="images/9.png"></a>    
+                </div>  
+            </section>
+            <section id="contact">
+                <div class="section-inner">
+                    <p id="insta">For any further queries contact me on Instagram:</p>
+                </div>
+                    <p><a href="https://instagram.com/aashnakhan_?igshid=ytas4xj18t8v"><img style="height: 100px;width: 100px;" src="images/icons8-instagram-100.png"></a></p>
+            </section>
+        </div>
+    </div>
+    <script>
+        $(".gallery").magnificPopup({
+            delegate:'a',
+            type:'image',
+            gallery:{
+                enabled: true
+            }
+        });
+    </script>
+    </body>
+</html>
