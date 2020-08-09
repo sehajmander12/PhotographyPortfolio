@@ -12,7 +12,7 @@
                 height:100vh;
                 flex-direction:column;
                 line-height: 1.5; 
-                font-size: 71.5%;
+                
                 color:#f4f4f4; 
                 background-color: #1d1e22;
                 font-family: 'Playball', cursive;
@@ -123,8 +123,8 @@
                 font-family: 'Playball', cursive;
             }
             .hi{
-                margin-left: 680px;
                 font-size: 1.5em;
+                margin-left:2rem;
                 font-family: 'Playball', cursive;
 
             }     
@@ -153,14 +153,15 @@
             } 
             .ab{
 
-                margin-left:400px;
-                margin-right: 400px;
+                width: 768px;
                 font-size:1.5em;
             }   
         
         .gallery{
-            margin:10px 50px;
+            display: flex;
+            flex-flow:row wrap;
             align-items: center;
+            justify-content: center;
         }      
 
         .gallery img{
@@ -176,8 +177,11 @@
             transform: scale(1.05) ;
 
         }
+        body{
+            background-image: url(images/background.png);
+        }
             
-            #hero{
+            /* #hero{
 
                 background-image: url(images/aashna.png);
             }
@@ -189,7 +193,7 @@
             }
             #contact{
                 background-image: url(images/background.png);
-            }
+            } */
             #insta{
                 color: white;
                 font-size: 2em;
@@ -203,5 +207,22 @@
                 margin-right: auto;
                 width: 50%;
             }
-                    
-      
+             
+            .section-inner{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .section-inner>img{
+                height: 30rem;
+                width:auto;
+            }
+            
+            @media screen and (max-width: 768px) {
+                body {
+                  font-size: large important!;
+                }
+              }
